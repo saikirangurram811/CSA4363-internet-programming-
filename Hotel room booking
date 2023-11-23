@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hotel Room Booking</h1>
+    </header>
+
+    <section>
+        <!-- User Registration Form -->
+        <form id="userRegistrationForm">
+            <h2>User Registration</h2>
+            <!-- Add input fields for user registration details -->
+
+            <button type="button" onclick="registerUser()">Register</button>
+        </form>
+
+        <!-- User Profile Form -->
+        <form id="userProfileForm">
+            <h2>User Profile</h2>
+            <!-- Add input fields for user profile details -->
+
+            <button type="button" onclick="modifyUserProfile()">Modify Profile</button>
+        </form>
+
+        <!-- Room Booking Form -->
+        <form id="roomBookingForm">
+            <h2>Room Booking</h2>
+            <!-- Add input fields for room booking details -->
+
+            <button type="button" onclick="bookRoom()">Book Room</button>
+        </form>
+
+        <!-- Booking History Table -->
+        <h2>Booking History</h2>
+        <table id="bookingHistoryTable">
+            <!-- Add table headers and data dynamically using JavaScript -->
+        </table>
+
+        <!-- Modify Booking Form -->
+        <form id="modifyBookingForm">
+            <h2>Modify Booking</h2>
+            <!-- Add input fields for modifying booking details -->
+
+            <button type="button" onclick="modifyBooking()">Modify Booking</button>
+        </form>
+
+        <!-- Cancel Booking Form -->
+        <form id="cancelBookingForm">
+            <h2>Cancel Booking</h2>
+            <!-- Add input fields for canceling booking details -->
+
+            <button type="button" onclick="cancelBooking()">Cancel Booking</button>
+        </form>
+
+        <!-- Room Availability Form -->
+        <form id="roomAvailabilityForm">
+            <h2>Room Availability</h2>
+            <!-- Add input fields for checking room availability -->
+
+            <button type="button" onclick="checkRoomAvailability()">Check Availability</button>
+        </form>
+    </section>
+
+    <section>
+        <!-- Administrator Login Form -->
+        <form id="adminLoginForm">
+            <h2>Administrator Login</h2>
+            <!-- Add input fields for administrator login -->
+
+            <button type="button" onclick="adminLogin()">Login</button>
+        </form>
+
+        <!-- Administrator Functionalities -->
+        <div id="adminFunctions" style="display: none;">
+            <!-- Change Quantity and Price Form -->
+            <form id="changeQuantityPriceForm">
+                <h2>Change Quantity and Price</h2>
+                <!-- Add input fields for changing quantity and price -->
+
+                <button type="button" onclick="changeQuantityPrice()">Change Quantity and Price</button>
+            </form>
+
+            <!-- Change Booking Details Form -->
+            <form id="changeBookingDetailsForm">
+                <h2>Change Booking Details</h2>
+                <!-- Add input fields for changing booking details -->
+
+                <button type="button" onclick="changeBookingDetails()">Change Booking Details</button>
+            </form>
+
+            <!-- Cancel Booking by Admin Form -->
+            <form id="cancelBookingByAdminForm">
+                <h2>Cancel Booking by Admin</h2>
+                <!-- Add input fields for canceling booking by admin -->
+
+                <button type="button" onclick="cancelBookingByAdmin()">Cancel Booking</button>
+            </form>
+
+            <!-- Modify Static Pages Form -->
+            <form id="modifyStaticPagesForm">
+                <h2>Modify Static Pages</h2>
+                <!-- Add input fields for modifying static pages -->
+
+                <button type="button" onclick="modifyStaticPages()">Modify Static Pages</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        // Add JavaScript functions for handling actions like registration, booking, etc.
+        // Update the forms and tables dynamically using JavaScript.
+        function registerUser() { /* Add logic */ }
+        function modifyUserProfile() { /* Add logic */ }
+        function bookRoom() { /* Add logic */ }
+        function modifyBooking() { /* Add logic */ }
+        function cancelBooking() { /* Add logic */ }
+        function checkRoomAvailability() { /* Add logic */ }
+        function adminLogin() { /* Add logic */ }
+        function changeQuantityPrice() { /* Add logic */ }
+        function changeBookingDetails() { /* Add logic */ }
+        function cancelBookingByAdmin() { /* Add logic */ }
+        function modifyStaticPages() { /* Add logic */ }
+    </script>
+
+</body>
+</html>
