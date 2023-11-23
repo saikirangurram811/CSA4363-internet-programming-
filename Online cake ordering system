@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy a Cake - Online Cake ordering system</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .cake {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color: white;
+            width: 250px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Buy a Cake - Online Cake ordering system</h1>
+    </header>
+
+    <section>
+        <div class="cake">
+            <img src="cake1.jpg" alt="Cake 1">
+            <h2>Cake Name 1</h2>
+            <p>Description of Cake 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: $20.00</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+
+        <div class="cake">
+            <img src="cake2.jpg" alt="Cake 2">
+            <h2>Cake Name 2</h2>
+            <p>Description of Cake 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: $25.00</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+        <!-- Add more cakes as needed -->
+    </section>
+
+    <footer>
+        &copy; 2023 Buy a Cake - Online Cake ordering system
+    </footer>
+
+    <script>
+        // JavaScript for adding cakes to the cart (you would need a more sophisticated solution)
+        function addToCart(cakeId) {
+            alert('Added Cake ' + cakeId + ' to the cart. Implement backend logic for a real system.');
+        }
+    </script>
+
+</body>
+
+</html>
